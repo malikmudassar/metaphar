@@ -1,0 +1,546 @@
+@media screen and (max-width:767px) {
+    .header-sec {
+        padding: 2px 0px;
+    }
+    .meta-banner-text h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .meta-banner-text h1 span {
+        font-size: 45px;
+        line-height: 55px;
+        margin-left: 15px;
+    }
+    .navbar-toggler {
+        padding: 12px 3px;
+    }
+    .meta-banner-text h6 {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 20px 0px 20px;
+    }
+    .meta-banner-text .btn-primary {
+        width: auto;
+    }
+    .meta-creator-banner {
+        padding-top: 100px;
+    }
+    .focus-sec {
+        padding: 70px 0px 0px;
+    }
+    .focusText h3 {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+    .focusText p {
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    br {
+        display: none;
+    }
+    .focus-inner h4 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+    .focus-inner .btn-1 {
+        margin: 20px 0px 40px 5px;
+    }
+    .ecosystem-sec {
+        padding: 10px 0px 60px;
+    }
+    .ecoText h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .ecoText p {
+        margin-bottom: 30px;
+    }
+    .ecoText h6 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .meta-growth-content, .meta-income-content, .meta-support-content, .meta-safety-content, .meta-boost-content {
+        margin-top: 0px;
+    }
+    .meta-growth-outer, .meta-income-outer, .meta-support-outer, .meta-safety-outer, .focus-outer , .meta-boost-outer{
+        margin-top: 40px;
+    }
+    .meta-growth-sec, .meta-support-sec, .meta-boost-sec {
+        padding: 60px 0px 60px;
+    }
+    .meta-growth-content h2, .meta-income-content h2, .meta-support-content h2, .meta-safety-content h2, .meta-boost-content h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .ready-to-rock {
+        padding: 60px 10px;
+    }
+    .ready-to-rock-inner {
+        padding: 35px 15px;
+    }
+    .rock-content .btn-groups {
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .rock-content .btn-groups .btn-1 {
+        padding: 12.5px 29.5px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .rock-content .btn-groups .btn-primary {
+        padding: 14.5px 15px;
+        margin-bottom: 20px;   
+       font-size: 13px;
+    }
+    .contact-us-sec h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .footerlogo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .socialIcons {
+        margin-top: 20px;
+    }
+    .socialIcons svg {
+        margin-right: 15px;
+    }
+    .footerPackages {
+        margin: 30px 0px 0px;
+    }
+    .footer-sec .col-md-2 {
+        width: 50%;
+    }
+    ul.footerLinks li {
+        line-height: 30px;
+    }
+    .copyrights {
+        margin-top: 40px;
+    }
+    .hero-section, .meta-translate {
+        min-height: auto;
+        background-position: inherit;
+    }
+    .hero-section .col-md-6.hero-inner {
+        margin: 70px 15px 70px;
+    }
+    .meta-translate .hero-heading span {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .meta-translate .hero-heading h1 {
+        font-size: 55px;
+        line-height: 62px;
+    }
+    .meta-translate .hero-heading p {
+        margin: 15px 0px 25px;
+    }
+    .btn-primary {
+        font-size: 13px;
+        padding: 10px 15px;
+        white-space: nowrap;
+    }
+    .couter-sec , .language-served , .creator-sec , section.investment-sec {
+        padding: 70px 0px;
+    }
+    .cout-inner {
+        padding: 50px 25px 50px 30px;
+    }
+    .cout-inner .media {
+        margin-bottom: 20px;
+    }
+    .languageText {
+        margin-bottom: 40px;
+    }
+    h2, h3, h5 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .most-popular-box {
+        padding: 8px 15px;
+        margin: 0px 10px 20px 0px;
+    }
+    .creator-sec h3, .our-translate-work-sec h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .our-translate-work-sec {
+        padding-bottom: 50px;
+    }
+    section.Analytics-sec {
+        padding: 70px 0px 70px;
+    }
+    .Analytics-sec .what-we-do-first {
+        padding: 20px 15px 40px;
+    }
+    .analytics-box {
+        height: auto;
+    }
+    .benefit_text h3 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .investment-sec .benefit_text h3 {
+        margin-bottom: 20px;
+    }
+    .investment-sec .benefits_Wrap .card, .investment_Wrap .card {
+        padding: 25px 30px;
+        max-width: 100%;
+        margin: 0px auto 30px;
+        background-size: 100% 95%;
+    }
+    .leader-sec {
+        padding: 0px 0px 0px;
+    }
+    .leader_Content h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .leader_img {
+        margin-top: 50px;
+    }
+    .benefits-sec {
+        padding: 20px 0px 70px!important;
+    }
+    .benefits_Wrap .card {
+        padding: 40px 40px 40px 40px;
+        max-width: 100%;
+        margin-bottom: 30px;
+        height: 100%;
+        background-size: 100% 95%;
+    }
+    .FAQ-sec {
+        padding: 20px 0px 70px;
+    }
+    .faqimg {
+        margin-bottom: 40px;
+    }
+    .FAQ-sec .bs-example {
+        margin: 25px 0px 0px!important;
+    }
+    .FAQ-sec .card .card-header .btn-link { 
+        text-align: left;
+        font-size: 16px;
+    }
+    .contact-us-sec {
+        padding: 60px 0px;
+    }
+    .hero-section .hero-inner {
+        margin: 70px 15px 70px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .hero-heading p {
+        line-height: 22px;
+        margin: 30px 0px 30px;
+    }
+    section.boxes-sec {
+        padding: 40px 0px 40px;
+    }
+    .boxesWrap img {
+        width: 100%;
+        height: auto;
+    }
+    .delivered-sec {
+        padding: 40px 0px 60px;
+    }
+    .metadbContent h2 span {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .btngroups .btn.btn-outline-primary {
+        padding: 10px 30px;
+        width: 47%;
+    }
+    .btngroups .btn-primary {
+        padding: 15px 40px;
+        width: 47%;
+    }
+    .btngroups {
+        margin: 35px 0px 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-img.text-right {
+        text-align: center!important;
+    }
+    section.meta-translate-sec  {
+        padding: 60px 0px;
+    }
+    .meta-db-sec  {
+        padding: 20px 0px 60px; 
+    }
+    .you-need-sec {
+        display: none;
+    }   
+    .slider-sec {
+        padding: 20px 0px 60px;
+    } 
+    .slideImages {
+        width: 70%;
+        margin: auto;
+    }
+    .slider-sec .metadbContent {
+        margin-left: 0px!important;
+    }
+    .slider-sec .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        left: 0px;
+    }
+    .newForms {
+        padding: 30px 20px 40px;
+        margin-top: -42px;
+    }
+    .newForms h4 {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .input-group {
+        padding: 5px;
+    }
+    .input-group-append .btn-primary {
+        padding: 13px 21px;
+    }
+    .news-letter .form-control {
+        padding: 5px 0px 0px 12px;
+        font-size: 14px;
+    }
+    .news-letter {
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .header-sec .navbar-nav .nav-link {
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+    .header-sec .nav-item.active:after {
+        width: 8%;
+    }
+    
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .header-sec {
+        padding: 2px 0px;
+    }
+    .meta-creator-banner {
+        min-height: auto;
+        padding: 60px 0px;
+    }
+    .meta-banner-text h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .meta-banner-text h1 span {
+        font-size: 55px;
+        line-height: 65px;
+        margin-left: 15px;
+    }
+    .meta-banner-text h6 {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0px 20px;
+    }
+    .meta-banner-text .btn-primary {
+        width: auto;
+    }
+    .focus-sec {
+        padding: 80px 0px 0px;
+    }
+    br {
+        display: none;
+    }
+    .creator-box {
+        min-height: 310px;
+    }
+    .creator-box h5 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .meta-growth-content, .meta-income-content, .meta-support-content, .meta-safety-content, .meta-boost-content {
+        margin-top: 40px;
+    }
+    .reviews-box ul li {
+        font-size: 14px;
+        line-height: 17px;
+        padding-left: 30px;
+    }
+    .reviews-box {
+        padding: 20px 20px;
+        min-height: 125px;
+    }    
+    .rock-content .btn-groups {
+        margin-top: 30px;
+        display: flex;
+    }
+    .rock-content .btn-groups .btn-primary {
+        padding: 14.5px 26px;
+    }
+    .rock-content .btn-groups .btn-1 {
+        padding: 12.5px 40.5px;
+    }
+    .socialIcons svg {
+        margin-right: 13px;
+    }
+    .footer-sec  .col-md-5 {
+        flex: 0 0 33.666667%;
+        max-width: 33.666667%;
+    }    
+    .footer-sec  .col-md-2 {
+        flex: 0 0 20.666667%;
+        max-width: 20.666667%;
+    }
+    .Analytics-sec .col-lg-3 {
+        width: 50%;
+    }
+    .faqimg img {
+        width: 70%;
+        margin: 0px auto 50px;
+        display: block;
+    }
+    .FAQ-sec {
+        padding: 0px 0px 80px;
+    }
+    .leader-sec {
+        padding: 0px;
+    }
+    .newForms {
+        padding: 30px 20px 40px;
+        margin-top: -42px;
+    }
+    .newForms h4 {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .input-group {
+        padding: 5px;
+    }
+    .input-group-append .btn-primary {
+        padding: 13px 21px;
+    }
+    .news-letter .form-control {
+        padding: 5px 0px 0px 12px;
+        font-size: 14px;
+    }
+    .news-letter {
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .header-sec .navbar-nav .nav-link {
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+    .header-sec .nav-item.active:after {
+        width: 8%;
+    }
+    .hero-section, .meta-translate {
+        background-size: contain;
+        min-height: auto;
+    }
+    .hero-section .hero-inner {
+        margin: 70px 0px 70px;
+    }
+    h1 {
+        font-size: 43px;
+        line-height: 47px;
+    }
+    .hero-heading p {
+        margin: 40px 0px 30px;
+    }
+    .herofieds input {
+        width: 56%;
+    }
+    .couter-sec .media {
+        margin-bottom: 25px;
+    }
+    .couter-sec {
+        padding: 70px 0px;
+    }
+    .cout-inner {
+        padding: 50px 25px 50px 30px;
+    }
+    .btngroups {
+        margin-top: 35px;
+        display: flex;
+    }
+    .btngroups .btn.btn-outline-primary {
+        padding: 10px 40px;
+    }
+    .btngroups .btn-primary {
+        padding: 15px 60px;
+    }
+    section.meta-translate-sec {
+        background: #FAF8FF;
+        padding: 10px 0px 60px;
+    }
+    .meta-db-sec {
+        padding: 40px 0px 70px;
+    }
+    .you-need-sec {
+        display: none;
+    }
+    .slider-sec {
+        padding: 50px 0px;
+    }
+    .slider-sec .metadbContent {
+        margin-left: 30px!important;
+    }
+    .slider-sec .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        left: 30px;
+    }
+    .investment-sec  .investment_Wrap .card {
+        padding: 25px 20px;
+        max-width: 280px;
+        margin: auto;
+    }
+   
+    
+    
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .you-need-sec {
+        height: 820px;
+    }
+    .heart {
+        padding: 30px 40px 50px;
+        background-size: cover;
+
+    }
+    .customCards {
+        top: -378px;
+    }
+    .you-needContent .btngroups {
+        display: flex;
+    }
+    .you-needContent .btngroups .btn-primary {
+        padding: 15px 60px;
+    }
+    .slider-sec .metadbContent {
+        margin-left: 34px!important;
+    }
+    .btngroups {
+        margin-top: 20px;
+    }
+    .metadbContent p {
+        margin-top: 15px;
+    }
+    .slider-sec .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -6px;
+        left: 21px;
+    }
+    .investment_Wrap .card {
+        min-height: 445px;
+    }
+}
