@@ -1,0 +1,222 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.site-header {
+    -webkit-backdrop-filter: saturate(0%) ;
+    backdrop-filter: saturate(0%);
+    box-shadow: 5px 5px 5px #efefef;
+}
+.py-1 {
+    padding-top: 0.25rem!important;
+    padding-bottom: 0.25rem!important;
+}
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+.logo-img {
+    height: 54px;;
+}
+.site-header a {
+    color: #000;
+    transition: color .15s ease-in-out;
+    line-height: 3rem;
+    
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 3rem;
+}
+.nav-links li a {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 3em !important;
+    text-decoration: none;
+    /* text-shadow: 1px 3px 5px grey; */
+}
+.btn-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    color: #fff !important;
+    position: absolute;
+    width: 83px;
+    height: 37px;
+    left: 1156px;
+    top: 14px;
+    text-decoration: none;
+    
+    background: #6166AA;
+    border-radius: 8px;
+}
+
+
+.nav-links li a:active {
+    font-weight: bold;
+}
+
+.header {
+    width: 100%;
+    height: 612px;
+    left: 0px;
+    top: 65px;
+    background-image: url("../img/headerbg.png");
+    background-size: cover;
+}
+
+.txt-header {
+    margin-top:110px;
+    margin-left:100px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+
+    color: #000000;
+}
+
+.txt-header-sub {
+    margin-top:80px;
+    margin-left:100px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+
+    color: #000000;
+}
+.sub-email {
+    margin-left:100px;
+    margin-top:30px;
+}
+
+.btn-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    color: #fff;
+    width: 147px;
+    height: 45px;
+    font-family: 'Helvetica';
+    background: #6166AA;
+    border-radius: 8px;
+}
+
+.input-email {
+    width: 380px;
+    height: 45px;
+}
+
+.cert-badges {
+    margin-top:50px;
+    margin-left: 100px;
+}
+
+.creators {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #efefef;
+}
+
+.creators span {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #252525;
+    
+}
+
+.creator-box {
+    margin-top: 20px;
+    margin-right:20px;
+}
+
+.counters {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.delivered {
+    height: 552px;
+    background-image: url('../img/delivered.png');
+    background-size: cover;
+}
+
+.wwd {
+    height: 630px;
+    background-image: url('../img/wwd.png');
+    background-size: cover;
+}
