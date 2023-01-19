@@ -105,8 +105,7 @@ CREATE TABLE `inquiries` (
   `package` int(5) NOT NULL,
   `description` text NOT NULL,
   `status` enum('Pending','In Progress','Resolved','Answered') NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
