@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 19, 2023 at 07:34 AM
+-- Generation Time: Jan 19, 2023 at 07:50 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.3.33
 
@@ -70,8 +70,7 @@ CREATE TABLE `channels` (
   `id` int(11) NOT NULL,
   `name` text NOT NULL,
   `detail` text NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -112,10 +111,10 @@ CREATE TABLE `inquiries` (
 -- Dumping data for table `inquiries`
 --
 
-INSERT INTO `inquiries` (`id`, `from`, `fullname`, `email`, `channel`, `package`, `description`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Home Page', 'Mudassar', 'malikmudassar@gmail.com', 'afdadsfase', 2, 'adsfasdfasdfsa', 'Pending', '2023-01-09 03:56:02', NULL),
-(3, 'Home Page', 'Mudassar', 'malikmudassar@gmail.com', 'afdadsfase', 3, 'afdasfdadsfasd', 'Pending', '2023-01-09 03:59:35', NULL),
-(4, 'Home Page', 'Brijesh', 'brijest@gmail.com', 'a;lfdja;sldkjf', 4, 'this is custom support test query', 'Pending', '2023-01-09 06:08:30', NULL);
+INSERT INTO `inquiries` (`id`, `from`, `fullname`, `email`, `channel`, `package`, `description`, `status`, `created_at`) VALUES
+(1, 'Home Page', 'Mudassar', 'malikmudassar@gmail.com', 'afdadsfase', 2, 'adsfasdfasdfsa', 'Pending', '2023-01-09 03:56:02'),
+(3, 'Home Page', 'Mudassar', 'malikmudassar@gmail.com', 'afdadsfase', 3, 'afdasfdadsfasd', 'Pending', '2023-01-09 03:59:35'),
+(4, 'Home Page', 'Brijesh', 'brijest@gmail.com', 'a;lfdja;sldkjf', 4, 'this is custom support test query', 'Pending', '2023-01-09 06:08:30');
 
 -- --------------------------------------------------------
 
@@ -131,7 +130,6 @@ CREATE TABLE `packages` (
   `price` int(6) NOT NULL,
   `duration` int(3) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
   `created_by` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -139,8 +137,8 @@ CREATE TABLE `packages` (
 -- Dumping data for table `packages`
 --
 
-INSERT INTO `packages` (`id`, `pkg_type`, `pkg_name`, `icon`, `price`, `duration`, `created_at`, `updated_at`, `created_by`) VALUES
-(1, 2, 'Diwali special', 'fa fa-money', 25, 1, '2023-01-09 06:00:56', NULL, 1);
+INSERT INTO `packages` (`id`, `pkg_type`, `pkg_name`, `icon`, `price`, `duration`, `created_at`, `created_by`) VALUES
+(1, 2, 'Diwali special', 'fa fa-money', 25, 1, '2023-01-09 06:00:56', 1);
 
 -- --------------------------------------------------------
 
@@ -152,20 +150,19 @@ CREATE TABLE `package_types` (
   `id` int(11) NOT NULL,
   `type_name` text NOT NULL,
   `description` text NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `package_types`
 --
 
-INSERT INTO `package_types` (`id`, `type_name`, `description`, `created_at`, `updated_at`) VALUES
-(2, 'Meta Growth', 'Sample Description', '2023-01-05 12:35:36', NULL),
-(3, 'Meta Income', 'Sample Description', '2023-01-05 12:35:51', NULL),
-(4, 'Meta Support', 'Sample Description', '2023-01-05 12:36:46', NULL),
-(5, 'Meta Safety', 'Sample Description', '2023-01-05 12:36:57', NULL),
-(6, 'Meta Boost', 'Sample Description', '2023-01-05 12:37:07', NULL);
+INSERT INTO `package_types` (`id`, `type_name`, `description`, `created_at`) VALUES
+(2, 'Meta Growth', 'Sample Description', '2023-01-05 12:35:36'),
+(3, 'Meta Income', 'Sample Description', '2023-01-05 12:35:51'),
+(4, 'Meta Support', 'Sample Description', '2023-01-05 12:36:46'),
+(5, 'Meta Safety', 'Sample Description', '2023-01-05 12:36:57'),
+(6, 'Meta Boost', 'Sample Description', '2023-01-05 12:37:07');
 
 -- --------------------------------------------------------
 
